@@ -8,22 +8,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
 
 </head>
 
 <body>
 
-    <form>
-        <label for="">nome</label> <input type="text" name="nome" id="nome" required placeholder="digite uma tarefa" >
-        <input type="submit" value="enviar"> <input type="reset" value="limpar">
-    </form>
-    
-        
-    </form>
+    <div class="container-fluid">
+        <form>
+            <input type="text" name="nome" id="nome" required placeholder="digite uma tarefa">
+            <input class="btn btn-success" type="submit" value="enviar"> <input class="btn btn-danger" type="reset" value="limpar">
+        </form>
+      </div>
 
-     <ul class="list" ></ul>
+   
+
+    <ul class="list"></ul>
 
     <script src="./js/index.js"></script>
+    
 </body>
 
 </html>
