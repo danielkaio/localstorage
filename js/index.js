@@ -7,12 +7,14 @@ task.forEach(task => {
     let linha = document.createElement("li")
     linha.innerHTML = task
     list.append(linha)
-    let btn = document.createElement('button')
-    btn.innerText = "x"
-    linha.append(btn)
-    btn.addEventListener('click',function(){
+    let span = document.createElement("span")
+    span.className="fa-solid fa-xmark"
+    linha.append(span)
+    span.addEventListener('click',function(){
     
-        linha.remove(this.parentNode)
+    linha.remove(this.parentNode)
+    localStorage.removeItem("task",this.parentNode)
+    
         
     })
     

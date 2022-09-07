@@ -1,3 +1,26 @@
+
+@font-face {
+    font-family: pessoal;
+    src: url("../fonts/Permanent_Marker/PermanentMarker-Regular.ttf");
+}
+body{
+   
+    font-family: pessoal;
+    color: whitesmoke;
+    background-color: darkgoldenrod;
+       
+}
+
+
 .list{
     list-style-type: none;
+}
+
+input::placeholder{
+    color: black;
+}
+
+span{
+    color: crimson;
+    margin: 10px;
 }
