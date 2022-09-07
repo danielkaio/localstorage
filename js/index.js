@@ -13,7 +13,9 @@ task.forEach(task => {
     span.addEventListener('click',function(){
     
     linha.remove(this.parentNode)
-    localStorage.removeItem("task",this.parentNode)
+    localStorage.removeItem("task",task)
+   
+
 
     
        
