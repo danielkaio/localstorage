@@ -14,10 +14,11 @@ task.forEach(task => {
     
     linha.remove(this.parentNode)
     localStorage.removeItem("task",this.parentNode)
+
     
-        
+       
     })
-    
+
 });
 
 form.addEventListener("submit",(e)=>{
@@ -35,9 +36,6 @@ form.addEventListener("submit",(e)=>{
 
    Insert()
 
-
-   
-   
     e.preventDefault()
 
     
