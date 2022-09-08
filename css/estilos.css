@@ -5,6 +5,14 @@
 }
 
 
+.container{
+    position: absolute;
+    left: 50%;
+}
+
+.titulo {
+    color: black;
+}
     
 
 body{
@@ -23,6 +31,7 @@ body{
     padding: 10px;
     margin: 10px;
     border: 5px whitesmoke solid;
+    z-index: 1;
 
   
     
@@ -36,9 +45,11 @@ span{
     margin: 10px;
 }
 
-.btn{
-    
-    width: auto;
-    border: 2px black solid;
-    background-color: green;
+.btn {
+    background: green;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+  
+
 }
+

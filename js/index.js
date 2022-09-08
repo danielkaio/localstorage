@@ -13,12 +13,8 @@ task.forEach(task => {
     span.addEventListener('click',function(){
     
     linha.remove(this.parentNode)
-    localStorage.removeItem("task",task)
-   
 
 
-    
-       
     })
 
 });
@@ -37,6 +33,9 @@ form.addEventListener("submit",(e)=>{
    }
 
    Insert()
+
+
+   localStorage.removeItem('task',nome)
 
     e.preventDefault()
 
